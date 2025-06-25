@@ -1,0 +1,10 @@
+{
+  "name": "Picnic Bootstrap DevContainer",
+  "image": "python:3.11-slim",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
