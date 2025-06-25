@@ -1,11 +1,11 @@
 {
   "name": "Picnic Bootstrap DevContainer",
-  "image": "python:3.11-slim",
-  "features": {},
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "customizations": {
     "vscode": {
       "extensions": ["ms-python.python"]
     }
-  },
-  "postCreateCommand": "pip install --no-cache-dir cookiecutter"
+  }
 }
