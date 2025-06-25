@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ex
-
+echo "Hello from bootstrapper!"
 WORKSPACE_ROOT="/workspaces"
 GENERATED_DIR="$WORKSPACE_ROOT/tmp-new-project"
 MARKER_FILE="$WORKSPACE_ROOT/.cookiecutter_initialized"
