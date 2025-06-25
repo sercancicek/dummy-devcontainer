@@ -7,5 +7,5 @@
       "extensions": ["ms-python.python"]
     }
   },
-  "postCreateCommand": "/workspaces/startup_cookiecutter.sh"
+  "postCreateCommand": "/bin/bash .devcontainer/bootstrap_cookiecutter.sh"
 }
