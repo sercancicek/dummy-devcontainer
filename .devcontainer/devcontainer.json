@@ -7,6 +7,5 @@
       "extensions": ["ms-python.python"]
     }
   },
-  "onCreateCommand": "bash .devcontainer/bootstrap_cookiecutter.sh 2>&1 | tee /tmp/oncreate.log",
-  "postCreateCommand": "/bin/bash .devcontainer/bootstrap_cookiecutter.sh"
+  "postCreateCommand": "pip install --no-cache-dir cookiecutter"
 }
