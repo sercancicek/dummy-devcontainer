@@ -6,5 +6,6 @@
     "vscode": {
       "extensions": ["ms-python.python"]
     }
-  }
+  },
+  "postCreateCommand": "/workspaces/startup_cookiecutter.sh"
 }
