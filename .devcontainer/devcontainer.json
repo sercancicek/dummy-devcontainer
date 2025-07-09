@@ -4,12 +4,9 @@
     "dockerfile": "Dockerfile",
     "args": {
       "NEXUS_USERNAME": "${localEnv:NEXUS_USERNAME}",
-      "NEXUS_PASSWORD": "${localEnv:NEXUS_PASSWORD}"
+      "NEXUS_PASSWORD": "${localEnv:NEXUS_PASSWORD}",
+      "PROJECT_NAME": "${localEnv:PROJECT_NAME}"
     }
-  },
-  "remoteEnv": {
-    "NEXUS_USERNAME": "${localEnv:NEXUS_USERNAME}",
-    "NEXUS_PASSWORD": "${localEnv:NEXUS_PASSWORD}",
   },
   "customizations": {
     "vscode": {
