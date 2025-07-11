@@ -1,2 +1,6 @@
 {
+  "name": "Picnic Bootstrap DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  }
 }
