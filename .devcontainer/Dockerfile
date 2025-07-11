@@ -2,7 +2,6 @@ FROM python:3.12-slim-bookworm
 
 ARG NEXUS_USERNAME
 ARG NEXUS_PASSWORD
-ARG PROJECT_NAME
 
 USER root
 RUN apt-get update && apt-get install -y git curl jq sudo locales && \
